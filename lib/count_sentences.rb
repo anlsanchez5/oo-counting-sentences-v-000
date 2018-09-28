@@ -20,7 +20,12 @@ class String
       self_array = self.split(/[.?!]+/)
       sentences = self_array.count
     end
-binding.pry
+
+    if sentences == 0
+      return 0
+    else 
+      return sentences
+
 
   end
 end
