@@ -17,7 +17,7 @@ class String
 
   def count_sentences
     if sentence? == true || question? == true || exclamation? == true
-      self_array = self.scan(/[.?!]+/)
+      self_array = self.split(/[.?!]+/)
       sentences = self_array.count
     end
 binding.pry
