@@ -23,9 +23,8 @@ class String
 
     if sentences == 0
       return 0
-    else 
+    else
       return sentences
-
-
+    end
   end
 end
