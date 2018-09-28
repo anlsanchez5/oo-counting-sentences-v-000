@@ -21,7 +21,7 @@ class String
       sentences = self_array.count
     end
 
-    if sentences == 0
+    if sentences == nil
       return 0
     else
       return sentences
